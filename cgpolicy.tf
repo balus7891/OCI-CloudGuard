@@ -32,5 +32,5 @@ resource "null_resource" "previous" {}
 resource "time_sleep" "wait_45_seconds" {
   depends_on = [null_resource.previous]
 
-  create_duration = "45s"
+  create_duration = "55s"
 }
