@@ -5,6 +5,12 @@ The Terraform code perform CloudGuard enablement and create a email notification
 
 The code help you to enable Oracle Cloud Guard in your tenancy along with an optional event and notification service. The notification service will trigger email notifications for the detected problems. 
 
+## Architecture Diagram 
+
+Here is a high level diagram for OCI Cloud Guard Workflow.
+
+![](CG.png)
+
 ## Functionality of the Code
 
 1. The service policy required for enabling the cloudguard will be added (if it was present then the code skip adding the policies)
