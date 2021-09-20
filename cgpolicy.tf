@@ -1,6 +1,6 @@
 
 resource "oci_identity_policy" "cg_policy" {
-  count = local.policy_exist == "Not-found" || local.policy_state != ["ACTIVE"] ? 1 : 0
+  #count = local.policy_exist == "Not-found" || local.policy_state != ["ACTIVE"] ? 1 : 0
     #Required
     compartment_id = var.tenancy_ocid
     description = "Policy for CloudGuard"
