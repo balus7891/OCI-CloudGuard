@@ -13,7 +13,7 @@ Here is a high level diagram for OCI Cloud Guard Workflow.
 
 ## Functionality of the Code
 
-1. The service policy required for enabling the cloudguard will be added (if it was present then the code skip adding the policies)
+1. The service policy required for enabling the cloudguard will be added.
 2. Enable Oracle Cloud Guard in the tenancy.
 3. Set the Traget where Cloud Guard need to get enabled (Tenancy level or compartment level)
 4. Clone the existing Oracle managed Responder Recipe and create a new Responder Recipe. The code use Oracle managed Detector Recipes to detect the problems
