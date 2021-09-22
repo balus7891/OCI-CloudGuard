@@ -102,7 +102,7 @@ _To remove the service run the below_
 
 ## Conclusion
 
-###### The code help you easily enable cloud guard and associated configuratiions along with an optional event and notification service. 
+###### The code help you easily enable cloud guard and associated configuratiions along with an optional event and notification service for the detected problems. 
 
 
 ## I hope the script helps !!!
